@@ -3,15 +3,19 @@
 
 int main (){
     int chon;
+    do
+    {
+        /* code */
+    
     printf("--------------------\n");
     printf ("MENU CHUONG TRINH LAB 3\n");
     printf ("--------------------\n");
     printf("0.CHUC NANG TINH HOC LUC SINH VIEN: \n");
     printf ("1.CHUC NANG GIAI PHUONG TRINH BAC 2: \n");
     printf ("2.CHUC NANG TINH TIEN DIEN TIEU THU HANG THANG: \n");
-    printf ("3.THOAT CHUONG TRINH\n");
+    printf ("3.THOAT CHUONG TRinh ");
     printf ("------------------------------\n");
-    printf ("CHON TU 0 den 3: ");
+    printf ("CHON TU 0 DEN 3: ");
     scanf ("%d",&chon);
     switch (chon){
         case 0:
@@ -153,5 +157,8 @@ int main (){
 
         printf("Tong tien dien phai tra: %.0f dong\n", tien);
     }
-}
+}   
+    } while (chon !=3);
+    return 0;
+
 }
