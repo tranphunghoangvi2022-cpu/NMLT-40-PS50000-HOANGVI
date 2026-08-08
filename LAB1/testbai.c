@@ -1,9 +1,13 @@
 #include <stdio.h>
-int main (){
-    int a,b;
-    float x;
-    printf ("nhap vao a b: ");
-    scanf ("%d %d",&a,&b);
 
-    printf ("pt %dx +%d =0 co nghiem x= %.2f",a,b,x=-1.0*b/a);
+int tong(int a, int b){
+    return a+b;
+}
+int main(){
+    int a,b;
+   printf ("nhap a va b: ");
+   scanf ("%d %d",&a,&b);
+   printf ("Tong = %d",tong(a,b));
+
+   return 0;
 }
